@@ -16,7 +16,7 @@ German Credit Scoring
 * **Parameters**
 	
 	* **Body**: 
-		* exp: 
+		* exp: years of working experience(must a number).
 
 
 example:
