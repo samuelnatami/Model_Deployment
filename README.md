@@ -16,12 +16,12 @@ German Credit Scoring
 * **Parameters**
 	
 	* **Body**: 
-		* exp: years of working experience(must a number).
+		* exp: 
 
 
-Example:
-```python
-{
-	exp: 1
-}
-```
+			example:
+			```python
+				{
+					exp: 1
+				}
+			```
