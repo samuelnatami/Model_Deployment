@@ -1,19 +1,27 @@
 # Model_Deployment
 Model Deployment Repository
 
-Author:
+Author:<br>
 Nirta Ika Yunita & Samuel Natamihardja
 
+<br>
 This repository contents: 
 German Credit Scoring
 
-* **URL**
-http://samuelnatami.pythonanywhere.com/api  
+* **URL**: http://samuelnatami.pythonanywhere.com/api  
 
 
-* **Method**
-	`POST`
+* **Method**: `POST`
 	
 * **Parameters**
 	
-	* **Body**: exp
+	* **Body**: 
+		* exp: 
+
+
+example:
+```python
+{
+	exp: 1
+}
+```
