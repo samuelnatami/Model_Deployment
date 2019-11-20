@@ -6,7 +6,7 @@ Nirta Ika Yunita & Samuel Natamihardja
 
 <br>
 API description:
-German Credit Scoring, this API call provide credit scoring of worthiness of an individual based on set of information.
+German Credit Scoring, this API call returning prediction if an individual going likely to be default in their installment terms based on set of information.
 
 * **URL**: http://samuelnatami.pythonanywhere.com/api  
 
@@ -16,17 +16,15 @@ German Credit Scoring, this API call provide credit scoring of worthiness of an 
 * **Parameters**
 	
 	* **Body**: 
-		* duration_in_month: 
-		* credit_amount: 
-		* unemployed: 
-		* installment_as_income_perc: 
-		* present_res_since: 
-		* age: 
-		* credits_this_bank: 
-		* people_under_maintenance: 
-		* foreign_worker_yes: 
-
-
+		* duration_in_month: loan duration in month
+		* credit_amount: loan amount
+		* unemployed: is the customer jobless? 
+		* installment_as_income_perc: installment rate of disposable income in percentage
+		* present_res_since:  how long the customers stay in their residence is in year
+		* age: age of the customer
+		* credits_this_bank: number of existing credits at this bank
+		* people_under_maintenance: number of liabilities
+		* foreign_worker_yes: is the customer a foreign worker?
 			example:
 			```python
 				{
@@ -41,3 +39,7 @@ German Credit Scoring, this API call provide credit scoring of worthiness of an 
 					"foreign_worker_yes:1
 				}
 			```
+* **Success Response**
+	* Code: 200
+		* Content:
+			* Default: prediction result -> 1: default, 0: not default
