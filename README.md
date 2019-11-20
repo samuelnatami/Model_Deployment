@@ -5,8 +5,8 @@ Author:<br>
 Nirta Ika Yunita & Samuel Natamihardja
 
 <br>
-This repository contents: 
-German Credit Scoring
+API description:
+German Credit Scoring, this API call provide credit scoring of worthiness of an individual based on set of information.
 
 * **URL**: http://samuelnatami.pythonanywhere.com/api  
 
