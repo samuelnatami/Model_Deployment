@@ -19,7 +19,7 @@ German Credit Scoring
 		* exp: years of working experience(must a number).
 
 
-example:
+Example:
 ```python
 {
 	exp: 1
